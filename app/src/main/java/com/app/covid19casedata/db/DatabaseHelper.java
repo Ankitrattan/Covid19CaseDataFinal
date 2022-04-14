@@ -24,6 +24,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
+    // this is work of ayushi patel
     @Override
     public void onCreate(SQLiteDatabase db) {
         String CREATE_COUNTRY_TABLE = "CREATE TABLE " + TABLE_CASEDATALIST + "("

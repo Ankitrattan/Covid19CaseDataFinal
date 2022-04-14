@@ -23,6 +23,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
+// this document is done by ayushi patel and ankit rattan
 public class CaseDataListAdapter extends RecyclerView.Adapter<CaseDataListAdapter.ViewHolder>{
 
     private Context mContext;

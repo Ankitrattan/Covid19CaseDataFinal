@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
+// work of dilawar singh sangha and ankit rattan
 public class PreferencesManager {
 
     private String PREF_NAME = "Covid19CaseData";

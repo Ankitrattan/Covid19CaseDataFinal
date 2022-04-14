@@ -2,7 +2,7 @@ package com.app.covid19casedata.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
-
+// work of ayushi patel
 public class NetworkCheck {
      private ConnectivityManager mNetworkConnection;
      private Context mNetworkContext;

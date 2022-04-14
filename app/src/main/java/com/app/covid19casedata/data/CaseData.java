@@ -2,7 +2,7 @@ package com.app.covid19casedata.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
+// In this document all team worked together ayushi patel, ankit rattan and dilawar sangha
 public class CaseData implements Parcelable {
 
     private String country,province,date;

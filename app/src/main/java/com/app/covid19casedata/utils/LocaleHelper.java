@@ -10,7 +10,7 @@ import android.preference.PreferenceManager;
 import android.util.DisplayMetrics;
 
 import java.util.Locale;
-
+// all team (ankit rattan , dilawar singh sangha , ayushi patel)
 public class LocaleHelper {
 
     public void setAppLocale(Context context,String localeCode){

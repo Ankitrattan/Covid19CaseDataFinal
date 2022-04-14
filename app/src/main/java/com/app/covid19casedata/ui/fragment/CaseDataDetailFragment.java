@@ -18,7 +18,7 @@ import com.app.covid19casedata.databinding.FragmentCasedataDetailBinding;
 import com.app.covid19casedata.db.DatabaseHelper;
 
 import java.util.ArrayList;
-
+// this is work of ankit rattan and dilawar singh sangha
 public class CaseDataDetailFragment extends Fragment {
 
     private FragmentCasedataDetailBinding binding;
@@ -40,14 +40,6 @@ public class CaseDataDetailFragment extends Fragment {
         binding.list.setLayoutManager(new LinearLayoutManager(getContext()));
         mDatabaseHelper = new DatabaseHelper(getContext());
         new GetCovid19CaseDataFromDB().execute();
-
-        /*binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(CaseDataDetailFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
-            }
-        });*/
     }
 
 

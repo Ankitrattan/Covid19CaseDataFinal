@@ -11,6 +11,8 @@ import com.app.covid19casedata.R;
 import com.app.covid19casedata.data.CaseData;
 
 import java.util.ArrayList;
+
+// this is work of ayushi patel
 public class ProvinceListAdapter extends RecyclerView.Adapter<ProvinceListAdapter.ViewHolder>{
 
     private ArrayList<CaseData> mCountryCaseDataList;
